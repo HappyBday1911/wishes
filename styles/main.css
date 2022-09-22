@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.bg-color:nth-child(odd) {
+    background-image: linear-gradient(45deg,#ee5180,#f85a6a 50%);
+    color: #4e4e4e;
+    font-family: 'Varela Round', sans-serif;
+}
+.bg-color:nth-child(even) {
+    background-image: linear-gradient(225deg,#ee5180,#f85a6a 50%);
+    color: #4e4e4e;
+    font-family: 'Varela Round', sans-serif;
+}
+.text {
+    align-self: center;
+}
+
+.bg-color > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}

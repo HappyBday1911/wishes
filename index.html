@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css"
+        integrity="sha512-hDXpx6vRwBR+f4rnj8BDQRpwfi4lvztz1KPkBPCG2XkTKiJ5Y6zq7/NsDmJRIQbquKchG0DVc6gmZiOE0ZXrvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="fullpage" class="container">
+        <div class="section bg-color">
+            <h1>message 1</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>Message 2</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>message 3</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>Message 4</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>message 5</h1>
+            <h1>Message 6</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>Message 7</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>T Message</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>Thank you for 8am sex</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>123SDF</h1>
+        </div>
+        <div class="section bg-color">
+            <h1>Thanks <s>poop</s> loop</h1>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"
+        integrity="sha512-+m1+m9XBnZXowk9jSNIlZYgtOPTIu6aUHha/4/3dk84PQcpWgrNd4/zKmOYno0BQK9nuJ6WgYBnuPqCrmvMNtg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        new fullpage('#fullpage', {
+            navigation: true,
+            afterLoad: function (origin, destination, direction, trigger) {
+
+                var origin = this;
+                
+                console.log(this);
+
+            }
+        });
+
+    </script>
+</body>
+
+</html>
